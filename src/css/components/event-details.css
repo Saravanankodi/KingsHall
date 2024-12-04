@@ -1,0 +1,54 @@
+.event-details
+{
+    width: 90%;
+    height: max-content;
+    margin: 0 auto;
+}
+.event-details .event-details-table
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow-y: scroll;
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin-top: 20px;
+}
+.event-details .event-details-table .table-heading
+{
+    font-family: Anta;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.62px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    background: none;
+    border-right: 1px solid #000 ;
+}
+.event-details .event-details-table .table-text
+{
+    font-family: Exo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.9px;
+    text-align: center;
+    color: #0496ff;
+}
+@media (max-width:700px){
+    .event-details
+    {
+        width: 100vw;
+        padding: 10px;
+    }
+    .event-details .event-details-table .table-heading
+    {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .event-details .event-details-table .table-text
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

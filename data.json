@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "9788",
+      "name": "haran",
+      "department": "ece",
+      "phone": "123456",
+      "details": "hi",
+      "startDate": "2024-11-14T18:33",
+      "endDate": "2024-11-14T18:33",
+      "currentDate": "2024-11-14T18:33",
+      "mail": "abc@mail.com"
+    },
+    {
+      "id": "0cea",
+      "name": "hari",
+      "department": "cse",
+      "phone": "456789",
+      "details": "hello",
+      "startDate": "2024-11-14T18:49",
+      "endDate": "2024-11-14T18:49",
+      "currentDate": "2024-11-14T18:49",
+      "mail": "efg@mail.com"
+    },
+    {
+      "id": "c3a5",
+      "name": "1",
+      "department": "2",
+      "phone": "3",
+      "details": "4",
+      "startDate": "2024-11-14T18:51",
+      "endDate": "2024-11-14T18:51",
+      "currentDate": "2024-11-14T18:51",
+      "mail": "asc@mail.com"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+.homepage-main
+{
+    height: max-content;
+    width: 100vw;
+    margin: 0 auto;
+}
+.homepage-main .wellcome-text
+{
+    font-family: Exo;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42.53px;
+    text-align: center;
+    color: #000;
+}
+.homepage-main .hallnames
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.homepage-main .hallnames .hall
+{
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.homepage-main .hallnames .hall .hall-logo
+{
+    display: block;
+    margin: 0 auto !important;
+}
+.homepage-main .hallnames .hall .hall-name
+{
+    font-family: Exo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.79px;
+    text-align: center;
+    color: #000;
+}
+.hallbooking-homepage .login-btns
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hallbooking-homepage .login-btns .btn
+{
+    height: 60px;
+    min-width: max-content;
+    background-color: #0496ff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: Anta;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+.hallbooking-homepage .login-btns .btn:hover
+{
+    box-shadow: 0 0px 10px #000;
+}
+.hallbooking-homepage .login-btns .btn .btn-icon
+{
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+}
+@media (max-width:700px) {
+    .hallbooking-homepage{
+        max-height: 100vh;
+    }
+    .hallbooking-homepage .homepage-main .wellcome-text
+    {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hallbooking-homepage .homepage-main .hallnames
+    {
+        height: 60%;
+        width: fit-content;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .hallbooking-homepage .homepage-main .hallnames .hall
+    {
+        height: max-content;
+    }
+    .hallbooking-homepage .homepage-main .hallnames .hall .hall-logo
+    {
+        height: 100px;
+    }
+    .hallbooking-homepage .homepage-main .hallnames .hall .hall-logo:last-child(){
+        margin-left: 10px;
+    }
+    .hallbooking-homepage .homepage-main .hallnames .hall .hall-name
+    {
+        font-size: 28px;
+        font-weight: 600;
+        /* color: #0496ff; */
+    }
+    .hallbooking-homepage .login-btns
+    {
+        display: none;
+    }
+}

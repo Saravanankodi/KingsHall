@@ -1,0 +1,130 @@
+.admin-page
+{
+    width: 100vw;
+    height: 100vh;
+}
+.admin-page .admin-header
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.admin-page .admin-header .hallbooking-header
+{
+    height: 150px;
+}
+.admin-page .admin-header .notification
+{
+    height: 80px;
+    width: 80px;
+    align-self: flex-end;
+    justify-items: flex-end;
+}
+.admin-page .admin-main
+{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.admin-page .admin-main .left
+{
+    width: 40%;
+    height: max-content;
+    margin: 0 auto;
+
+}
+.admin-page .admin-main .left .heading
+{
+    height: max-content;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.admin-page .admin-main .left .heading .heading-text
+{
+    font-family: Anta;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 51.27px;
+    text-align: left;
+}
+.admin-page .admin-main .left .vector-img
+{
+    height: 320px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.admin-page .admin-main .left .name
+{
+    font-family: Exo;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47.84px;
+    text-align: center;
+    color: #000;
+}
+.admin-page .admin-main .left .name span
+{
+    color: #0496ff;
+}
+.admin-page .admin-main .right
+{
+    width: 60%;
+    height: max-content;
+    margin: 0 auto;
+}
+.admin-page .admin-main .right .img-container
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+.admin-page .admin-main .right .img-container .hall-link
+{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Exo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.79px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.admin-page .admin-main .right .img-container .hall1
+{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.admin-page .admin-main .right .img-container .hall2
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.admin-page .admin-main .right .img-container .hall2 .hall-img
+{
+    display: block;
+    margin: 0 auto;
+}

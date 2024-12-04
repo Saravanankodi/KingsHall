@@ -1,0 +1,93 @@
+.event-history
+{
+    width: 98vw;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.event-history .welcome-text
+{
+    font-family: Exo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.79px;
+    text-align: center;
+}
+.event-history .event-history-table
+{
+    width: 90%;
+    height: fit-content;
+    max-height: 80vh;
+    margin: 0 auto;
+    border: 1px solid #0496ff;
+    overflow-y: scroll;
+    border-collapse: collapse;
+}
+.event-history .event-history-table .table-heading
+{
+    font-family: Anta;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.62px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    background: none;
+    border-right: 1px solid #000 ;
+}
+.event-history .event-history-table .table-text
+{
+    font-family: Exo;
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 31.9px; */
+    text-align: center;
+}
+.event-history .event-history-table .table-heading-notification
+{
+    font-size: 24px;
+    padding: 0 10px;
+}
+.event-history .event-history-table .approvel
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.event-history .event-history-table .approvel button
+{
+    background: none;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: auto;
+    transition: all .5s;
+}
+.event-history .event-history-table .approve
+{
+    color: green;
+}
+.event-history .event-history-table .decline
+{
+    color: red;
+}
+.event-history .event-history-table .cheack-btns
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.event-history .event-history-table .cheack-btns img
+{
+    height: 90%;
+}

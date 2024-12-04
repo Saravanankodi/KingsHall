@@ -1,0 +1,77 @@
+.hallbooking-header
+{
+    height: 200px;
+    width: fit-content;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    
+}
+.hallbooking-header .privious-btn
+{
+    height: auto;
+    width: 50px;
+    align-self: flex-end;
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.hallbooking-header .privious-btn .btn-icon
+{
+    height: 50px;
+    width: 50px;
+    outline: none !important;
+    border: none !important;  
+    background: none;
+}
+.hallbooking-header .logo .logo-img
+{
+    height: 150px;
+    width: auto;
+}
+.hallbooking-header .heading .heading-name
+{
+    font-family: Anta;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 78.13px;
+    text-align: center;
+    color: #0496FF;
+    text-wrap: nowrap;
+}
+.hallbooking-header .vector-img
+{
+    height: 150px;
+    width: auto;
+    margin: 0 auto;
+}
+@media (max-width:700px) {
+    .hallbooking-header
+    {
+        height: 100px;
+        padding: 0 10px;
+    }
+    .hallbooking-header .logo .logo-img
+    {
+        height: 75px;
+        margin-left: 10px;
+    }
+    .hallbooking-header .heading .heading-name
+    {
+        font-size: 28px;
+        text-wrap: wrap;
+        line-height: 30px;
+    }
+    .hallbooking-header .vector-img
+    {
+        display: none;
+    }
+    .hallbooking-header .privious-btn
+    {
+        display: none;
+    }
+}

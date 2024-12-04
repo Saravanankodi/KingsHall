@@ -1,0 +1,189 @@
+.hallbooking
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hallbooking .hallbooking-heading
+{
+    font-family: Anta;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    color: #0496FF;
+}
+.hallbooking .hallbooking-form
+{
+    height: max-content;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid #000000;
+    padding-top: 40px;
+    
+}
+.hallbooking .hallbooking-form .hallbooking-form-comdent
+{
+    width: 100%;
+    height: 100%;
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hallbooking .hallbooking-form .hallbooking-form-comdent .input-container
+{
+    width: 80%;
+    max-height: 80px;
+    display: block;
+}
+.hallbooking .hallbooking-form .hallbooking-form-comdent .text
+{
+    width: 80%;
+    font-family: Exo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.9px;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+
+}
+.hallbooking .hallbooking-form .hallbooking-form-comdent .input-box
+{
+    height: 50px;
+    width: 80%;
+    background: #FFFFFF;
+    border: 2px solid #0496FF;
+    border-radius: 10px;
+    outline: none;
+    font-family: Exo;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 26.58px;
+    text-align: left;
+    padding-left: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.hallbooking .hallbooking-form .booking-btn
+{
+    font-family: Anta;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 461px;
+    height: 69px;
+    background: #0496FF;
+    color: #fff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    outline: none;
+    flex: none;
+    margin: 20px auto;
+    transition: all .8s;
+}
+.popup-message
+{
+    font-family: Anta;
+    font-size: 48px;
+    font-weight: 400;
+    text-decoration-skip-ink: none;
+    color: #0496FF;
+    word-wrap: normal;
+}
+.popup-container
+{
+    height: fit-content;
+    width: 600px;
+    background: #D9D9D9;
+    border: 2.5px solid #000000;
+}
+.popup-close
+{
+    height: 40px;
+    width: 80px;
+    color: #000;
+    background: #fdfdfd;
+    font-family: Exo;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+.popup-action
+{
+    margin: 0;
+}
+.hallbooking .hallbooking-form .booking-btn:hover,
+.hallbooking .hallbooking-form .booking-btn:active
+{
+    background: #fff;
+    color: #000;    
+}
+@media (max-width:700px){
+    .hallbooking
+    {
+        height: auto;
+    }
+    .hallbooking .hallbooking-heading
+    {
+        font-size: 28px;
+    }
+    .hallbooking .hallbooking-form
+    {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .hallbooking .hallbooking-form .hallbooking-form-comdent
+    {
+        flex: none;
+    }
+    .hallbooking .hallbooking-form .hallbooking-form-comdent .input-container
+    {
+        width: 90%;
+    }
+    .hallbooking .hallbooking-form .hallbooking-form-comdent .text
+    {
+        font-size: 16px;
+    }
+    .hallbooking .hallbooking-form .hallbooking-form-comdent .input-box
+    {
+        font-size: 14px;
+        height: 45px;
+        border-radius: 5px;
+        margin:0 auto;
+    }
+    .hallbooking .hallbooking-form .booking-btn
+    {
+        font-size: 24px;
+        height: 50px;
+        width: 60%;
+        margin: 10px auto;
+        padding: 0;
+        line-height: normal;
+    }
+    .popup-message
+    {
+        font-size: 24px;
+    }
+    .popup-container
+    {
+        width: 300px;
+        height: max-content;
+    }
+}
