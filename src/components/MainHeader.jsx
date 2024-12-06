@@ -10,7 +10,7 @@ function MainHeader() {
         </div>
         <div className="heading">
             <h1 className="heading-name">
-                Kings Halls Bookings system
+                Kings Hall Booking System
             </h1>
         </div>
     </section>
