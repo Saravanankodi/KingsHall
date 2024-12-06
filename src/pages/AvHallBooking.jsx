@@ -10,8 +10,8 @@ function AvHallBooking() {
           vector ={vector}
           icon ={icon}  
         />
-        <EventDetails name='Av'/>
-        <BookingForm hallName ='Av'/>
+        <EventDetails name='AV'/>
+        <BookingForm hallName ='AV'/>
     </>
   )
 }
