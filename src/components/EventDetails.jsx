@@ -41,7 +41,7 @@ function EventDetails({ name }) {
 
   return (
     <section className="event-details">
-      <h1 className="welcome-text">Welcome to {name} hall</h1>
+      <h1 className="welcome-text">Welcome to {name} Hall</h1>
       {error ? (
         <p className="error-text">{error}</p>
       ) : events.length === 0 ? (
