@@ -117,7 +117,7 @@ function BookingForm({ hallName }) {
 
   return (
     <section className="hallbooking">
-      <h1 className="hallbooking-heading">Book Hall</h1>
+      <h1 className="hallbooking-heading">Enter Your Hall Booking Details</h1>
       <form onSubmit={handleSubmit} className="hallbooking-form">
         <div className="hallbooking-form-left hallbooking-form-comdent">
           <div className="input-container">
