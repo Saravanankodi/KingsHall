@@ -11,20 +11,20 @@ function Home() {
         <MainHeader/>
         <main className="homepage-main">
             <h2 className="wellcome-text">
-            Welcome to all
+            WELCOME TO ALL
             </h2>
             <div className="hallnames">
                 <a href='/hallbooking/chera' className="hall">
                     <img src={chera} alt="" className="hall-logo" />
-                    <p className="hall-name">Chera hall</p>
+                    <p className="hall-name">CHERA HALL</p>
                 </a>
                 <a href='/hallbooking/pallava' className="hall">
                     <img src={pallava} alt="" className="hall-logo" />
-                    <p className="hall-name">Pallava hall </p>
+                    <p className="hall-name">PALLAVA HALL </p>
                 </a>
                 <a href='/hallbooking/av' className="hall">
                     <img src={av} alt="" className="hall-logo" />
-                    <p className="hall-name">AV hall</p>
+                    <p className="hall-name">AV HALL</p>
                 </a>
             </div>
         </main>
