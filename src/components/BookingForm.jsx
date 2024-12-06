@@ -121,27 +121,27 @@ function BookingForm({ hallName }) {
       <form onSubmit={handleSubmit} className="hallbooking-form">
         <div className="hallbooking-form-left hallbooking-form-comdent">
           <div className="input-container">
-            <label className="text">Your name</label>
-            <input type="text" placeholder='Enter your name' className="input-box" value={name} onChange={(e) => setName(e.target.value)} required />
+            <label className="text">Your Name</label>
+            <input type="text" placeholder='Your name' className="input-box" value={name} onChange={(e) => setName(e.target.value)} required />
           </div>
           <div className="input-container">
             <label className="text">Your Department</label>
-            <input type="text" placeholder='Enter your Department' className="input-box" value={department} onChange={(e) => setDepartment(e.target.value)} required />
+            <input type="text" placeholder='Your Department' className="input-box" value={department} onChange={(e) => setDepartment(e.target.value)} required />
           </div>
           <div className="input-container">
             <label className="text">Your Contact No</label>
-            <input type="number"  placeholder='Enter your phone no' className="input-box" value={phone} onChange={(e) => setPhone(e.target.value)} required />
+            <input type="number"  placeholder='Your Contact No' className="input-box" value={phone} onChange={(e) => setPhone(e.target.value)} required />
           </div>
           <div className="input-container">
             <label className="text">Your Mail</label>
             <input type="email" placeholder='example@mail.com' className="input-box" value={email} onChange={(e) => setEmail(e.target.value)} required />
           </div>
+        </div>
+        <div className="hallbooking-form-right hallbooking-form-comdent">
           <div className="input-container">
             <label className="text">Your Event Details</label>
             <input type="text" placeholder='Enter your Hall Booking purpose' className="input-box" value={event_detail} onChange={(e) => setEventDetail(e.target.value)} required />
           </div>
-        </div>
-        <div className="hallbooking-form-right hallbooking-form-comdent">
           <div className="input-container">
             <label className="text">Event start date</label>
             <input type="datetime-local" className="input-box" value={event_start} onChange={(e) => setEventStart(e.target.value)} required />
