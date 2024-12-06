@@ -13,7 +13,7 @@ function Header(propes) {
         </div>
         <div className="heading">
             <h1 className="heading-name">
-                Kings Hall Booking system
+                Kings Hall Booking System 
             </h1>
         </div>
         <img src={propes.vector} alt="" className='vector-img'/>
