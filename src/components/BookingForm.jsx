@@ -140,7 +140,7 @@ function BookingForm({ hallName }) {
         <div className="hallbooking-form-right hallbooking-form-comdent">
           <div className="input-container">
             <label className="text">Your Event Details</label>
-            <input type="text" placeholder='Enter your Hall Booking purpose' className="input-box" value={event_detail} onChange={(e) => setEventDetail(e.target.value)} required />
+            <input type="text" placeholder='Your Hall Booking purpose' className="input-box" value={event_detail} onChange={(e) => setEventDetail(e.target.value)} required />
           </div>
           <div className="input-container">
             <label className="text">Event start date</label>
