@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import "../css/components/event-details.css";
 import axios from "axios";
+import { parseISO, isAfter } from "date-fns";
 
 function EventDetails({ name }) {
   const [events, setEvents] = useState([]);
   const [error, setError] = useState(null);
+  const Location = useLocation();
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -39,9 +42,19 @@ function EventDetails({ name }) {
     return new Date(isoString).toLocaleDateString(undefined, options);
   };
 
-  return (
+
+const filteredEvents =
+  Location.pathname === "login/incharge"
+    ? events
+    : events.filter((event) => {
+        const eventEndDate = event.event_end?.S ? parseISO(event.event_end.S) : null;
+        const today = new Date();
+        return eventEndDate && isAfter(eventEndDate, today);
+      });
+
+    return (
     <section className="event-details">
-      <h1 className="welcome-text">Welcome to {name} Hall</h1>
+      <h1 className="welcome-text">Welcome to {name} hall</h1>
       {error ? (
         <p className="error-text">{error}</p>
       ) : events.length === 0 ? (
@@ -58,7 +71,7 @@ function EventDetails({ name }) {
             </tr>
           </thead>
           <tbody>
-            {events.map((event, index) => (
+          {filteredEvents.map((event, index) => (
               <tr key={index}>
                 <td className="table-text">{event.name?.S || "N/A"}</td>
                 <td className="table-text">{formatDate(event.booking_date?.S || "N/A")}</td>
